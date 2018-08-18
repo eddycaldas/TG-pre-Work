@@ -22,17 +22,17 @@ body {
 }
 
 #banner {
-  height: 700px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
   background-size: cover;
   background-position: bottom center;
+  height: 700px;
   width: 100%;
 }
 
 #banner .content h1 {
-  width: 400px;
   position: relative;
   top: 50px;
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -50,6 +50,7 @@ h1 {
 }
 
 h2 {
+  border: 1px dotted red;
   color: red;
   font-size: 14px;
   line-height: 48px;
@@ -70,7 +71,6 @@ p {
 }
 
 .pull-quote {
-  width: 350px;
 }
 
 .byline {
