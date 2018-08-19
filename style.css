@@ -110,7 +110,11 @@ a.home {
 }
 
 .garamond .sample .text {
+	font-family: "Garamond", serif;
+}
 
+.helvetica .sample .text {
+	font-family: "Helvetica", sans-serif;
 }
 
 .font-card .creator {
