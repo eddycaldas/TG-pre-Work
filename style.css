@@ -125,3 +125,6 @@ p {
   color: #D7263D;
   animation: ease;
 }
+.donate {
+	visibility: hidden;
+}
