@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Glegoo";
+  src: url(../fonts/Glegoo-Regular.ttf) format('truetype');
+}
+
 /* Universal Styles */
 /* latin */
 @font-face {
@@ -101,6 +106,8 @@ a.home {
 }
 
 .banner p {
+  font-family: Glegoo;
+  font-size: 20px;
   line-height: 1.4;
   font-weight: bold;
   border-top: 1px solid #fff;
