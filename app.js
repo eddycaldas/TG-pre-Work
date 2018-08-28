@@ -1,16 +1,6 @@
-let wordCount = "Great! You've started your work!";
-
-if (wordCount) {
-  console.log("Great! You've started your work!");
+let hungerLevel = 5;
+if(hungerLevel > 7) {
+	console.log("Time to eat!")
 } else {
-  console.log('Better get to work!');
-}
-
-
-let favoritePhrase = "This string doesn't seem to be empty";
-
-if (!favoritePhrase) {
-  console.log("This string doesn't seem to be empty.");
-} else {
-  console.log('This string is definitely empty.');
+	console.log("We can eat later!")
 }
