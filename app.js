@@ -9,7 +9,7 @@ if (wordCount) {
 
 let favoritePhrase = "This string doesn't seem to be empty";
 
-if (favoritePhrase) {
+if (!favoritePhrase) {
   console.log("This string doesn't seem to be empty.");
 } else {
   console.log('This string is definitely empty.');
