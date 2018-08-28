@@ -1,2 +1,2 @@
-var favoriteAnimal = 'dog';
-console.log('My favorite animal: '+ favoriteAnimal)
+console.log('bacon');
+console.log('any movie is fine')
