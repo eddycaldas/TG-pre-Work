@@ -1,4 +1,4 @@
-function takeOrder() {
-	console.log('Order: pizza')
+function takeOrder(topping) {
+	console.log('Order: pizza with ' + topping)
 }
-takeOrder();
+takeOrder('bacon');
