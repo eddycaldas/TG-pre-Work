@@ -1,6 +1,4 @@
-var moonPhase = 'full';
-if(true) {
-	console.log("Howl!");
-} else {
-  console.log("I swear I am not a werewolf");
+function takeOrder() {
+	console.log('Order: pizza')
 }
+takeOrder();
