@@ -1,12 +1,13 @@
-var myPlaces = ['Italy', 'Norway', 'Sweden'];
-var friendPlaces = ['France', 'Norway', 'Russia'];
+var cards = ['Diamond', 'Spade', 'Heart', 'Club'];
 
-for (var i=0; i<myPlaces.length; i++) {
-	//console.log(myPlaces[i]);
-  for(var j=0; j<friendPlaces.length; j++) {
-		//console.log(friendPlaces[j]);
-    if(myPlaces[i] === friendPlaces[j]) {
-      console.log(myPlaces[i], friendPlaces[j]);
-    }
-  }
+var currentCard = 'Heart';
+
+while (currentCard !== 'Spade') {
+  console.log(currentCard);
+
+  var randomNumber = Math.floor(Math.random() * 4);
+
+  currentCard = cards[randomNumber];
 }
+
+console.log('Found a Spade!');
