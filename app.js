@@ -1,18 +1,26 @@
 var orderCount = 0;
 
 function takeOrder(topping, crustType) {
+  console.log('Order: ' + crustType + ' crust topped with ' + topping);
   orderCount = orderCount + 1;
-	console.log('Order: ' + crustType + ' pizza topped with ' + topping)
-};
+}
 
 function getSubTotal(itemCount) {
-  return itemCount*7.5;
-};
+  return itemCount * 7.5;
+}
+
+function getTax() {
+  return getSubTotal(orderCount) * 0.06;
+}
+
+function getTotal() {
+  return getSubTotal(orderCount) + getTax();
+}
 
 
-takeOrder('ham', 'original');
-takeOrder('bacon', 'thin crust');
-takeOrder('jalapenos', 'thin crust');
+takeOrder('bacon', 'thin');
+takeOrder('pepperoni', 'regular');
+takeOrder('pesto', 'thin');
 
 console.log(getSubTotal(orderCount));
-
+console.log(getTotal());
