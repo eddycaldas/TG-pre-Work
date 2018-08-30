@@ -1,10 +1,20 @@
-var laundryRoom = 'Basement';
-var mailRoom = 'Room 1A';
 
-var myApartment = function() {
-  var mailBoxNumber = 'Box 3';
-  var laundryRoom = 'In-unit';
-  console.log('Mail box: ' + mailBoxNumber + ', Laundry:' + laundryRoom);
-};
+function myApartment() {
+	var myCoffeeMaker = 'Aeropress';
+	
+	var myCloset = 'Extra coats in the back';
+	
+	var myRefridgerator = 'Filled with veggies and dark chocolate.';
+	var myDog = 'Nikko';
+	
+}
 
-myApartment();
+var buildingLaundryCode = 4927;
+var buildingAddress = '150 E 14th St, New York, NY';
+var buildingPhone = '(481) 516-2342';
+
+
+
+// Do not edit the code after this line
+console.log("**Apartment Building Information**");
+console.log("Laundry code: " + buildingLaundryCode + "\nPhone: " + buildingPhone + "\nMailing address: " + buildingAddress);
