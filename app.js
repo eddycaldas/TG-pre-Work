@@ -1,26 +1,9 @@
-var orderCount = 0;
-
-function takeOrder(topping, crustType) {
-  console.log('Order: ' + crustType + ' crust topped with ' + topping);
-  orderCount = orderCount + 1;
-}
-
-function getSubTotal(itemCount) {
-  return itemCount * 7.5;
-}
-
-function getTax() {
-  return getSubTotal(orderCount) * 0.06;
-}
-
-function getTotal() {
-  return getSubTotal(orderCount) + getTax();
-}
+var myString = 'string';
+var myNumber = 578;
+var myBoolean = false;
 
 
-takeOrder('bacon', 'thin');
-takeOrder('pepperoni', 'regular');
-takeOrder('pesto', 'thin');
-
-console.log(getSubTotal(orderCount));
-console.log(getTotal());
+// Do not edit the code under this line
+console.log("Name: " + myString);
+console.log("Lucky Number: " + myNumber);
+console.log("Good joke? " + myBoolean);
