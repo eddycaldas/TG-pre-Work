@@ -1,10 +1,4 @@
-var bucketList = ['One', 'Two', 'Three'];
-console.log(bucketList);
-
-var listItem = bucketList[3];
-console.log(listItem);
-console.log(bucketList.length);
-bucketList.push('four', 'five');
-console.log(bucketList);
-bucketList.pop();
-console.log(bucketList);
+var vacationSpots = ['Ocean', 'Mountains', 'Deserts'];
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
