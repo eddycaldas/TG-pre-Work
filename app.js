@@ -6,3 +6,5 @@ console.log(listItem);
 console.log(bucketList.length);
 bucketList.push('four', 'five');
 console.log(bucketList);
+bucketList.pop();
+console.log(bucketList);
