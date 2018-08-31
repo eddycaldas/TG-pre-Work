@@ -3,7 +3,7 @@ function main() {
   $(".skillset").fadeIn(1000);
   $(".projects").hide();
   $(".projects-button").on('click', function() {
-    $('.projects').show();
+    $('.projects').toggle();
   })
 };
 
