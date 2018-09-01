@@ -1,12 +1,6 @@
-const logVisibleLightWaves = () => {
-  let lightWaves = 'Moonlight';
-	let region = 'The Arctic';
-  if (region === 'The Arctic') {
-		let lightWaves = 'Northern Lights';
- 		console.log(lightWaves);
-  }
-  
-  console.log(lightWaves);
+// Write your code below
+for (let counter = 5; counter < 11; counter++) {
+	console.log(counter);
 };
 
-logVisibleLightWaves();
+
