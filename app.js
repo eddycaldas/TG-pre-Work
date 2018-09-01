@@ -1,16 +1,16 @@
-const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
 
-// Create the secretMessage array below
+// Call .filter() on randomNumbers below
+const smallNumbers = randomNumbers.filter(num => {
+  return num < 250;
+})
 
-const secretMessage = animals.map(animal => {
-  return animal[0];
-});
+const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
 
-console.log(secretMessage.join(''));
 
-const bigNumbers = [100, 200, 300, 400, 500];
+// Call .filter() on favoriteWords below
 
-// Create the smallNumbers array below
-const smallNumbers = bigNumbers.map(bigNumber => {
-  return bigNumber/100;
-});
+const longFavoriteWords = favoriteWords.filter(word => {
+  return word.length > 7;
+})
+
