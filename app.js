@@ -1,11 +1,12 @@
-const satellite = 'The Moon';
-const galaxy = 'The Milky Way';
-let stars = 'North Star';
-
-const callMyNightSky = () => {
-  stars = 'Sirius';
-	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+const logVisibleLightWaves = () => {
+  let lightWaves = 'Moonlight';
+	let region = 'The Arctic';
+  if (region === 'The Arctic') {
+		let lightWaves = 'Northern Lights';
+ 		console.log(lightWaves);
+  }
+  
+  console.log(lightWaves);
 };
 
-console.log(callMyNightSky());
-console.log(stars);
+logVisibleLightWaves();
