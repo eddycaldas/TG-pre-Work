@@ -1,8 +1,9 @@
-const city = 'New York City';
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+const stars = 'North Star';
 
-const logCitySkyline = () => {
-  let skyscraper = 'The Empire State Building';
-  return 'The stars over the ' + skyscraper + ' in ' + city;
+const callMyNightSky = () => {
+	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
 };
 
-console.log(logCitySkyline());
+console.log(callMyNightSky());
