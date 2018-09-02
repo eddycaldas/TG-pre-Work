@@ -1,21 +1,28 @@
-const robot = {
-	model: 'SAL-1000',
-  mobile: true,
-  sentient: false,
-  armor: 'Steel-plated',
-  energyLevel: 75
+class Dog {
+  constructor(name) {
+    this._name = name;
+    this._behavior = 0;
+  }
+
+  get name() {
+    return this._name;
+  }
+  get behavior() {
+    return this._behavior;
+  }   
+
+  incrementBehavior() {
+    this._behavior ++;
+  }
 }
 
-// What is missing in the following method call?
-const robotKeys = Object.keys(robot);
+const halley = new Dog('Halley');
+console.log(halley.name); // Print name value to console
+console.log(halley.behavior); // Print behavior value to console
+halley.incrementBehavior(); // Add one to behavior
+console.log(halley.name); // Print name value to console
+console.log(halley.behavior); // Print behavior value to console
 
-console.log(robotKeys);
 
-// Declare robotEntries below this line:
-const robotEntries = Object.entries(robot)
-console.log(robotEntries);
 
-// Declare newRobot below this line:
-const newRobot = Object.assign({laserBlaster: true, voiceRecognition: true}, robot);
 
-console.log(newRobot)
