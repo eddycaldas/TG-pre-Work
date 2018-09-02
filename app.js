@@ -20,6 +20,11 @@ const getSuggestions = () => {
   }, networkError => {
     console.log(networkError.message)
   })
+  fetch(url).then((jsonResponse) => {
+		
+  }).then(jsonResponse => {
+    renderResponse(jsonResponse);
+  });
 }
 
 // Clears previous results and display results to webpage
