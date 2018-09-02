@@ -1,8 +1,4 @@
-var pasta = "Spaghetti"; // ES5 syntax
+let Airplane = {};
+Airplane.myAirplane = 'StarJet';
 
-var meat = "Pancetta"; // ES6 syntax
-
-var sauce = "Eggs and cheese"; // ES6 syntax
-
-// Template literals, like the one below, were introduced in ES6
-var carbonara = 'You can make carbonada with ' + pasta + ', ' + meat + ', and a sauce made with ' + sauce;
+module.exports = Airplane;
