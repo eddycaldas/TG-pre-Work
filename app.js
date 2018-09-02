@@ -1,16 +1,13 @@
-
-// ------------> 2-airplane.js
 const Airplane = {};
+Airplane.availableAirplanes = [
+  {
+    name: 'AeroJet',
+    fuelCapacity: 800
+  },
+  	{
+    	name: 'SkyJet',
+  	fuelCapacity: 500
+    }
+];
 
-module.exports = {
-  myAirplane: "CloudJet",
-  displayAirplane: function() {
-    return this.myAirplane;
-  }
-};
-
-
-
-// --------------> 2-missionControl.js
-const Airplane = require('./2-airplane.js');
-console.log(Airplane.displayAirplane());
+export default Airplane;
